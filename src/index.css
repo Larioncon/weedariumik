@@ -1,0 +1,72 @@
+body {
+  --bg-color: var(--tg-theme-bg-color);
+  font: 18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--tg-theme-text-color);
+  padding: 0;
+  color-scheme: var(--tg-color-scheme);
+}
+
+a {
+  color: var(--tg-theme-link-color);
+}
+#viewport {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: var(--tg-viewport-stable-height, 100vh);
+  pointer-events: none;
+  transition: all .2s ease;
+}
+#viewport:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, rgba(15, 109, 231, 0.5), rgba(233, 248, 20, 0.5)) 1;
+}
+
+.active {
+  color: rgb(42, 30, 206);
+  font-size: 17px;
+  transition: all 1s;
+}
+.wrapper  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------------- */
+
+.btn {
+  font-size: 25px;
+  margin: 25px 0 25px 0;
+  width: 150px;
+  padding: 10px;
+  background-color: greenyellow;
+  border-radius: 12px;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-color: rgb(142, 226, 15);
+  transition: all 0.5s;
+}
+.btn:active {
+  background-color: rgb(78, 122, 11);
+  transition: all 0.5s;
+}

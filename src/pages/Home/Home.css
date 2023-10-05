@@ -1,0 +1,40 @@
+
+.home {
+  margin-top: 25px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home__buy-btn {
+  font-size: 25px;
+  margin: 25px 0 25px 0;
+  width: 150px;
+  padding: 10px;
+  background-color: greenyellow;
+  border-radius: 12px;
+  transition: all 1s;
+}
+
+.home__buy-btn:hover {
+  background-color: rgb(142, 226, 15);
+  transition: all 0.5s;
+}
+.home__buy-btn:active {
+  background-color: rgb(78, 122, 11);
+  transition: all 0.5s;
+}
+.home__image {
+  margin-top: 10px;
+  margin-left: 5%;
+  width: 90%;
+  max-width: 90%;
+  border: 1px solid rgb(21, 118, 184);
+  border-radius: 15px;
+}
+.home__text {
+  display: flex;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+
+
+.testimonial {
+  margin-top: 10px;
+  margin-left: 5%;
+  width: 90%;
+  max-width: 90%;
+  border: 2px solid rgb(73, 165, 226);
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.testimonial__heading {
+font-weight: bold;
+margin-bottom: 10px;
+}
+.testimonial__text {
+
+}
+.testimonial__review-btn {
+  text-align: center;
+}
